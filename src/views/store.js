@@ -1,11 +1,15 @@
-import {Container} from "react-bootstrap";
+import React,{Component} from "react";
+import Container from "../../node_modules/react-bootstrap/Container";
+import StoreS1 from "../components/store-s1";
 
-function Store(){
-    return(
-        <Container fluid className="minh-footer-adj bg-dark d-flex align-items-center py-5">
-            
-        </Container>
-    );
+class Store extends Component{
+    render(){
+        return(        
+            <Container fluid className="minh-footer-adj p-0">
+                <StoreS1/>
+            </Container>    
+        );
+    }
 }
 
 export default Store;
