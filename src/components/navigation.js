@@ -19,7 +19,7 @@ class Navigation extends Component{
                         <img src="img/navbar_logo.png" alt="logo" className="me-2"/>                        
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle className="border-light"/>
+                <Navbar.Toggle className="border-light bg-secondary"/>
                 <Navbar.Collapse>
                     <Nav className="ms-auto text-end px-3 bg-md-white border-md-light-brw opacity-9">
                         {menuContent}

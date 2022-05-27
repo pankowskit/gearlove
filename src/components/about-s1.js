@@ -10,11 +10,11 @@ class AboutS1 extends Component{
             <Row className="mx-0 w-100 mt-5">
                 <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh"></Col>
                 <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
-                    <div className="w-100 text-center text-md-start">
+                    <div className="w-100 text-center text-md-start text-shadow">
                         <h5 className="text-white">
                             Sed ut perspiciatis
                         </h5>
-                        <h2 className="dispaly-6 fw-bold text-white-50">
+                        <h2 className="dispaly-6 fw-bold text-white">
                             Unde omnis iste
                         </h2>
                         <p className="text-white">

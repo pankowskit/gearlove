@@ -7,11 +7,11 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class BlogS2 extends Component{
     render(){
         return(    
-            <Container fluid className="blog-s2 d-flex minh-50vh bg-light align-items-center py-5">
+            <Container fluid className="blog-s2 d-flex minh-50vh bg-light align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
                     <Col xs={10} sm={8} lg={7} className="mx-auto">                        
                         <Card className="w-100 text-start mb-4">
-                            <Row>
+                            <Row className="m-0">
                                 <Col xs={4} className="bg-secondary">
                                     <Card.Img src="..." alt="..."/>
                                 </Col>
@@ -34,7 +34,7 @@ class BlogS2 extends Component{
                             </Row>
                         </Card>                                             
                         <Card className="w-100 text-start mb-4">
-                            <Row>
+                            <Row className="m-0">
                                 <Col xs={4} className="bg-secondary">
                                     <Card.Img src="..." alt="..."/>
                                 </Col>
@@ -57,7 +57,7 @@ class BlogS2 extends Component{
                             </Row>
                         </Card>                     
                         <Card className="w-100 text-start mb-4">
-                            <Row>
+                            <Row className="m-0">
                                 <Col xs={4} className="bg-secondary">
                                     <Card.Img src="..." alt="..."/>
                                 </Col>
