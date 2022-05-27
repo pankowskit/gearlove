@@ -1,7 +1,72 @@
-//@include aoa-bg-series($section__classes,$section__images);
+@include aoa-bg-series($section__classes,$section__images);
 
 .comingsoon,.error,.privacy{
     &-s1{
         background-blend-mode: multiply;
+    }
+}
+.about,.service{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text-shadow;
+    }
+}
+nav{
+    z-index: 10;
+}
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .about{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+        &-s1{
+            background-position: right!important;
+        }
+    }
+    .contact{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .index,.blog,.service{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            background-position: right!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .navbar{
+        &-nav{
+            *:hover{
+                opacity: 0.8;
+            }
+            background-color: #999!important;
+            border: 1px solid #666!important;
+            color: #333!important;
+            padding: 10px;
+        }
     }
 }

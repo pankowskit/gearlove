@@ -9,8 +9,8 @@ class ServiceS1 extends Component{
             <Container fluid className="service-s1 bg-dark d-flex minh-50vh align-items-center py-5">
                 <Row className="mx-0 w-100 mt-5">
                     <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
-                        <div className="w-100 text-center text-md-start pt-5">
-                            <h2 className="dispaly-6 fw-bold text-white-50">
+                        <div className="w-100 text-center text-md-start pt-5 text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-white">
                                 Dolor sit amet         
                             </h2>
                             <p className="lead text-white">
